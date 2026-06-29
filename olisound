@@ -1,6 +1,24 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "updates": [
-      "Initial",
+      "Features:
+- feat: Added `PlayUrlEntity` to attach audio directly to any ped or object entity.
+- feat: Added `setMasterVolume` export for global audio ducking (e.g. for Voice chat integration).
+- feat: Added `setReverb` export utilizing a native Web Audio ConvolverNode.
+- feat: Added `crossfadeTo` for seamless DJ-style track transitions.
+- feat: Added `getLiveTimestamp` and `onTimestamp` event to poll exact time from the JS engine.
+- feat: Implemented an Automatic Update Checker on server startup.
+- feat: Configured GitHub Actions release automation via `release.yml`.
+
+Bug Fixes:
+- fix: Restored active sounds from cache when streamer mode is disabled instead of leaving the game silent.
+- fix: Fixed JS `pause()` and `resume()` not properly emitting NUI callbacks for `onPlayPause` / `onPlayResume`.
+- fix: Wired Web Audio API `error` event to fire the `onError` lua callback to handle broken URLs.
+
+Enhancements:
+- chore: Added `DestroyAll`, `PauseAll`, and `ResumeAll` batch exports.
+- chore: Synced `setSoundLoop` and `repeatSound` server exports.
+- chore: Added `Config.defaultDistance` to easily configure default 3D audio ranges.
+- docs: Fully updated README.md with new exports and feature list.",
     ]
 }
