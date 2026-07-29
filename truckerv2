@@ -1,6 +1,9 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.3",
     "updates": [
-      "Initial",
+      "+ Fixed Hiring issue",
+"+ Redesigned Company Search tab",
+"+ Added Level to Buy trucks",
+
     ]
 }
