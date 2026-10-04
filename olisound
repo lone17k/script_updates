@@ -1,7 +1,10 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.5",
     "updates": [
-      "Features:
+      feat: add update checker, release automation, and new audio capabilities
+This commit introduces a suite of new features, bug fixes, and quality-of-life improvements to enhance the olisound library.
+
+Features:
 - feat: Added `PlayUrlEntity` to attach audio directly to any ped or object entity.
 - feat: Added `setMasterVolume` export for global audio ducking (e.g. for Voice chat integration).
 - feat: Added `setReverb` export utilizing a native Web Audio ConvolverNode.
@@ -19,6 +22,6 @@ Enhancements:
 - chore: Added `DestroyAll`, `PauseAll`, and `ResumeAll` batch exports.
 - chore: Synced `setSoundLoop` and `repeatSound` server exports.
 - chore: Added `Config.defaultDistance` to easily configure default 3D audio ranges.
-- docs: Fully updated README.md with new exports and feature list.",
+- docs: Fully updated README.md with new exports and feature list.
     ]
 }
