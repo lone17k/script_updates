@@ -1,7 +1,8 @@
 {
-    "version": "1.0.0",
-    "updates": [
-      "+ Initial release",
-
+    "version": "1.0.4",
+    "updates": ["
+      - Added and Updated locales
+- Remove fivemanage and added Mp3 Support for fivem TOS
+- Added Spectate support",
     ]
 }
